@@ -10,7 +10,7 @@ class CreateMovies < ActiveRecord::Migration
       t.timestamps
     end
   end
-
+  #add_column(table_name, column_name, type, options = {})
   def down
     drop_table :movies
   end
